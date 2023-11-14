@@ -1,0 +1,34 @@
+body {
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    animation: fadeIn 4s;
+    
+}
+
+h1 {
+    color: white;
+    vertical-align: middle;
+}
+
+h2 {
+    color:white;
+}
+
+
+p {
+    color:wheat;
+}
+
+.center {
+    border: px solid;
+    border-color: rgb(53, 53, 53);
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
